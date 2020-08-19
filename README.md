@@ -29,8 +29,8 @@ If status is <strong>success</strong> you will receive 2 parameters:
 
 <ul>
   <li><strong>bip39_seed</strong>: containing the cracked seed phrase.</li>
-    </li><strong>satoshis</strong: the balance of such wallet in satoshis.</li>
-  </ul>
+  </li><strong>satoshis</strong>: the balance of such wallet in satoshis.</li>
+ </ul>
 
 ## Credits
 This code has not been done by me. I bought it from Izaum because I had lost a part of my Coin Space BIP39 Seed and they coded it for me. Thanks to this code, I was able to recover my coins. I asked them if I was allowed to publish it and they gave me permission.
