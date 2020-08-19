@@ -1,0 +1,172 @@
+<!--
+This code has been done by Izaum Hackers (https://www.izaum.com)
+-->
+
+<!doctype html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="BIP39 Seed bruteforcer based on a previous pattern that you already know">
+        <meta name="author" content="Izaum Hackers">
+        <link rel="icon" type="image/png" href="vendor/img/glider.png" />
+        <title>BIP39 Seed Bruteforcer by Izaum</title>
+
+        <link href="vendor/css/bootstrap.min.css" rel="stylesheet">
+
+        <style>
+
+            .bd-placeholder-img{
+
+                font-size: 1.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+
+            }
+
+            @media(min-width: 768px){
+
+                .bd-placeholder-img-lg{
+
+                    font-size: 3.5rem;
+
+                }
+
+            }
+
+        </style>
+
+        <link href="vendor/css/floating-labels.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <form class="form-signin" onsubmit="return bruteforce()">
+
+            <div class="text-center mb-4">
+
+                <img class="mb-4" src="vendor/img/glider.png" alt="" width="72" height="72">
+                <h1 class="h3 mb-3 font-weight-normal">BIP39 Seed Bruteforcer</h1>
+
+                <p>
+                
+                    Write from 1 to 12 the words you know. If you don't know the word, leave the field empty. You need to know at least 6 out of the 12 words.
+                    
+                </p>
+
+            </div>
+
+            <div class="form-label-group">
+
+                <input type="text" id="inputWord1" class="form-control" placeholder="Word 1" autofocus>
+                <label for="inputWord1">Word 1</label>
+
+            </div>
+
+            <div class="form-label-group">
+
+                <input type="text" id="inputWord2" class="form-control" placeholder="Word 2">
+                <label for="inputWord2">Word 2</label>
+
+            </div>
+            
+            <div class="form-label-group">
+
+                <input type="text" id="inputWord3" class="form-control" placeholder="Word 3">
+                <label for="inputWord3">Word 3</label>
+
+            </div>
+            
+            <div class="form-label-group">
+
+                <input type="text" id="inputWord4" class="form-control" placeholder="Word 4">
+                <label for="inputWord4">Word 4</label>
+
+            </div>
+            
+            <div class="form-label-group">
+
+                <input type="text" id="inputWord5" class="form-control" placeholder="Word 5">
+                <label for="inputWord5">Word 5</label>
+
+            </div>
+            
+            <div class="form-label-group">
+
+                <input type="text" id="inputWord6" class="form-control" placeholder="Word 6">
+                <label for="inputWord6">Word 6</label>
+
+            </div>
+            
+            <div class="form-label-group">
+
+                <input type="text" id="inputWord7" class="form-control" placeholder="Word 7">
+                <label for="inputWord7">Word 7</label>
+
+            </div>
+            
+            <div class="form-label-group">
+
+                <input type="text" id="inputWord8" class="form-control" placeholder="Word 8">
+                <label for="inputWord8">Word 8</label>
+
+            </div>
+            
+            <div class="form-label-group">
+
+                <input type="text" id="inputWord9" class="form-control" placeholder="Word 9">
+                <label for="inputWord9">Word 9</label>
+
+            </div>
+            
+            <div class="form-label-group">
+
+                <input type="text" id="inputWord10" class="form-control" placeholder="Word 10">
+                <label for="inputWord10">Word 10</label>
+
+            </div>
+            
+            <div class="form-label-group">
+
+                <input type="text" id="inputWord11" class="form-control" placeholder="Word 11">
+                <label for="inputWord11">Word 11</label>
+
+            </div>
+            
+            <div class="form-label-group">
+
+                <input type="text" id="inputWord12" class="form-control" placeholder="Word 12">
+                <label for="inputWord12">Word 12</label>
+
+            </div>
+            
+            <div class="alert alert-success" role="alert" hidden>
+
+                Success! You'll receive a post response on your server soon.
+
+            </div>
+            
+            <div class="alert alert-danger" role="alert" hidden>
+
+                
+
+            </div>
+
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Start</button>
+            <p class="mt-5 mb-3 text-muted text-center">&copy; 2020 - Developed by <a href="https://www.izaum.com">Izaum Hackers</a></p>
+
+        </form>
+        
+        <script type="text/javascript" src="vendor/js/jquery.min.js"></script>
+        <script type="text/javascript" src="vendor/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="vendor/js/bruteforce.js"></script>
+
+    </body>
+
+</html>
