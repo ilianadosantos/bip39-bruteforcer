@@ -10,7 +10,7 @@ If your bitcoins or cryptocurrency where stolen or your sent to someone else by 
 ## Demo
 
 <p align="center">
-[![Izaum Hackers Logo](https://raw.githubusercontent.com/ilianadosantos/bip39-bruteforcer/master/vendor/img/glider.png)](https://ilianadosantos.github.io/bip39-bruteforcer/)
+<img src="https://raw.githubusercontent.com/ilianadosantos/bip39-bruteforcer/master/vendor/img/glider.png" alt="Izaum Hackers Logo">
 </p>
 
 For online usage, check out the demo: https://ilianadosantos.github.io/bip39-bruteforcer/
