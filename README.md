@@ -13,7 +13,10 @@ If your bitcoins or cryptocurrency where stolen or your sent to someone else by 
 <img src="https://raw.githubusercontent.com/ilianadosantos/bip39-bruteforcer/master/vendor/img/glider.png" alt="Izaum Hackers Logo">
 </p>
 
-For online usage, check out the demo: https://ilianadosantos.github.io/bip39-bruteforcer/
+<p>
+  For online usage, check out the demo: https://ilianadosantos.github.io/bip39-bruteforcer/ <br />
+  Take into consideration that API_Server is not set in online demo. For a complete usage, download the zip and execute it locally.
+</p>
 
 ## How to use it?
 
