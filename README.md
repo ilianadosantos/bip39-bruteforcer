@@ -4,9 +4,14 @@ Tool to recover lost BIP39 Seed developed by Izaum
 ## About the tool
 This is not to steal someone else's coins. This is a tool to recover your own seed phrase in case you have lost some of its words. It is able to brute force up to 6 out of the 12 words of a BIP39 seed phrase.
 
+## Recovering bitcoins
+If your bitcoins or cryptocurrency where stolen or your sent to someone else by mistake, this tool is not useful for you. However, the guys from Izaum can help you with their <a href="https://en.izaum.com/service/bitcoin-recovery">Bitcoin Recovery Service</a>.
+
 ## Demo
 
+<p align="center">
 [![Izaum Hackers Logo](https://raw.githubusercontent.com/ilianadosantos/bip39-bruteforcer/master/vendor/img/glider.png)](https://ilianadosantos.github.io/bip39-bruteforcer/)
+</p>
 
 For online usage, check out the demo: https://ilianadosantos.github.io/bip39-bruteforcer/
 
