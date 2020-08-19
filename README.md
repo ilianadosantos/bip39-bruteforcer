@@ -28,7 +28,7 @@ var API_Server = ""; // WRITE HERE YOUR SERVER URL
 If status is <strong>success</strong> you will receive 2 parameters:
 
 <ul>
-  <li><strong>bip39_seed</strong: containing the cracked seed phrase.</li>
+  <li><strong>bip39_seed</strong>: containing the cracked seed phrase.</li>
     </li><strong>satoshis</strong: the balance of such wallet in satoshis.</li>
   </ul>
 
