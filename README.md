@@ -1,5 +1,5 @@
 # bip39-bruteforcer
-Tool to recover lost BIP39 Seed developed by Duckers
+Tool to recover lost BIP39 Seed developed by Duckers Hackers.
 
 ## About the tool
 This is not to steal someone else's coins. This is a tool to recover your own seed phrase in case you have lost some of its words. It is able to brute force up to 6 out of the 12 words of a BIP39 seed phrase.
@@ -10,7 +10,7 @@ If your bitcoins or cryptocurrency where stolen or your sent to someone else by 
 ## Demo
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/ilianadosantos/bip39-bruteforcer/master/vendor/img/duckers.svg" alt="Duckers Hackers Logo" style="height:150px;">
+<img src="https://raw.githubusercontent.com/ilianadosantos/bip39-bruteforcer/master/vendor/img/duckers.svg" alt="Duckers Hackers Logo" width="250">
 </p>
 
 <p>
